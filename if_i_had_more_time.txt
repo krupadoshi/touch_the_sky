@@ -1,0 +1,19 @@
+
+1. I have the clouds list in the javascript, which have random coordinates and same radius. 
+These are getting rendered behind the canvas, and I am still figuring out what brings them on canvas. i colored them black, when you load the game first time, you can see them for a split second. So I ended up using a sky with clouds background. 
+
+2. I attempted the multiple platforms, but I finally left it out. I think I have to create the array of rectangular place holders and do array.push the platform images on it over a loop, but it didn't work. As a work around, I used the same platform that will move upwards. When the sprite lands on it and when its reached almost to the top, it will reset the game objects back to the bottom. If I had the multiple platform working, I would check the y coordinates of the sprite, on landing somewhere in the middle of the screen rather than top to give it a better scrolling effect.
+
+I would have attempted the following if I had more time to research and use:
+
+1. Gravity. Right now the sprite stays in position when no keys used. I really wanted it to fall when no action keys pressed. 
+
+2. End game if sprite didn't land on platform.
+
+3. time the game.
+
+4. Collisions and penalties. 
+
+5. Tunes.
+
+6. Motion images, based on the direction of the sprite. 
